@@ -22,6 +22,7 @@ A responsive form builder application built with Next.js 13 (App Router), TypeSc
 - **TypeScript**
 - **TailwindCSS** / **Shadcn UI**
 - **Vercel PostgreSQL**
+- **Clerk for Authentication**
 - **Prisma** as ORM
 
 ## Getting Started
