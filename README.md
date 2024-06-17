@@ -16,7 +16,7 @@ A responsive form builder application built with Next.js 13 (App Router), TypeSc
 
 ## Technologies Used
 
-- **Next.js 13** with App Router
+- **Next.js** with App Router
 - **Dnd-kit** library
 - **Server Actions**
 - **TypeScript**
