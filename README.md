@@ -1,28 +1,41 @@
+# Form Builder
 
-[Discord server for problems/help](https://discord.gg/Gc3ShuJrYE)
+A responsive form builder application built with Next.js 13 (App Router), TypeScript, TailwindCSS/Shadcn UI, and Dnd-kit for drag-and-drop functionality. The backend is powered by Vercel PostgreSQL with Prisma as the ORM. The application includes form creation, customization, preview, sharing, submission, validation, and statistics tracking.
 
-[Youtube video](https://youtu.be/QGXUUXy0AMw)
+## Features
 
-[LIVE DEMO](https://yt-pageform.vercel.app/)
+- **Responsive Design**: Ensures the application works seamlessly on all device sizes.
+- **Drag-and-Drop Designer**: Create forms with an intuitive drag-and-drop interface.
+- **Layout Fields**: Title, Subtitle, Spacer, Separator, Paragraph.
+- **Form Fields**: Text, Number, Select, Date, Checkbox, Textarea.
+- **Customization**: Easily add and customize new fields.
+- **Form Preview**: Preview the form in a dialog before sharing or submitting.
+- **Form Sharing**: Share form URLs for public access.
+- **Form Submission and Validation**: Handle form submissions with validation.
+- **Form Stats**: Track visits and submissions.
 
-In this 4 hour tutorial we are going to build this full stack PageForm application.
+## Technologies Used
 
-We are going to build this with:
-- Nextjs 13  with AppRouter
-- Dnd-kit library
-- ServerActions
-- Typescript
-- Tailwindcss / Shadcn UI
-- Vercel PostgreSQL
-- Prisma as ORM
+- **Next.js 13** with App Router
+- **Dnd-kit** library
+- **Server Actions**
+- **TypeScript**
+- **TailwindCSS** / **Shadcn UI**
+- **Vercel PostgreSQL**
+- **Prisma** as ORM
 
-Features: 
-- Responsive
-- Create forms with a stunning drag and drop designer
-- Layout fields: Title, SubTitle, Spacer, Separator, Paragraph
-- Form fields: Text, Number, Select, Date, Checkbox, Textarea
-- Is easy to add and customize new fields
-- Form preview dialog
-- Share form url
-- Form submission/validation
-- Form stats: visits and submissions
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- PostgreSQL
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/form-builder.git
+   cd form-builder
